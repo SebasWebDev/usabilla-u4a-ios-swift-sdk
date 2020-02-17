@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "9.0"
   s.source        = { :git => "https://github.com/SebasWebDev/usabilla-u4a-ios-swift-sdk.git", :tag => "v#{s.version}" }
   s.ios.vendored_frameworks = 'Usabilla.framework'
-  s.source_files  = 'Usabilla.h', 'Usabilla-Swift.h'
+  s.source_files  = 'Usabilla.framework/**/*.h'
   
 end
