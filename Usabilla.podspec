@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license       = "Apache License, Version 2.0"
   s.author        = { "Team SDK" => "sdk@usabilla.com" }
   s.platform      = :ios, "9.0"
-  s.source        = { :git => "https://github.com/usabilla/usabilla-u4a-ios-swift-sdk.git", :tag => "v#{s.version}" }
+  s.source        = { :git => "https://github.com/SebasWebDev/usabilla-u4a-ios-swift-sdk.git", :tag => "v#{s.version}" }
   s.ios.vendored_frameworks = 'Usabilla.framework'
   s.source_files  = 'Usabilla.h', 'Usabilla-Swift.h'
   
